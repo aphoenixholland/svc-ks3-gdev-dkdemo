@@ -39,7 +39,7 @@ gdjs.Level1Code.condition2IsTrue_1 = {val:false};
 gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDBarrelObjects1Objects = Hashtable.newFrom({"Barrel": gdjs.Level1Code.GDBarrelObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEdgeObjects1Objects = Hashtable.newFrom({"Edge": gdjs.Level1Code.GDEdgeObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDBarrelObjects1Objects = Hashtable.newFrom({"Barrel": gdjs.Level1Code.GDBarrelObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDHeroObjects1Objects = Hashtable.newFrom({"Hero": gdjs.Level1Code.GDHeroObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDBarrelObjects1Objects = Hashtable.newFrom({"Barrel": gdjs.Level1Code.GDBarrelObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDExplosionObjects1Objects = Hashtable.newFrom({"Explosion": gdjs.Level1Code.GDExplosionObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDHeroObjects1Objects = Hashtable.newFrom({"Hero": gdjs.Level1Code.GDHeroObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEdgeObjects1Objects = Hashtable.newFrom({"Edge": gdjs.Level1Code.GDEdgeObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDEdgeObjects1Objects = Hashtable.newFrom({"Edge": gdjs.Level1Code.GDEdgeObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDHeroObjects1Objects = Hashtable.newFrom({"Hero": gdjs.Level1Code.GDHeroObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDPrisonerObjects1Objects = Hashtable.newFrom({"Prisoner": gdjs.Level1Code.GDPrisonerObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDFireworksObjects1Objects = Hashtable.newFrom({"Fireworks": gdjs.Level1Code.GDFireworksObjects1});gdjs.Level1Code.mapOfGDgdjs_46Level1Code_46GDExplosionObjects2Objects = Hashtable.newFrom({"Explosion": gdjs.Level1Code.GDExplosionObjects2});gdjs.Level1Code.eventsList0x70af2c = function(runtimeScene) {
 
 }; //End of gdjs.Level1Code.eventsList0x70af2c
-gdjs.Level1Code.eventsList0x72c864 = function(runtimeScene) {
+gdjs.Level1Code.eventsList0x72c7fc = function(runtimeScene) {
 
 {
 
@@ -64,7 +64,7 @@ if (true) {
 }
 
 
-}; //End of gdjs.Level1Code.eventsList0x72c864
+}; //End of gdjs.Level1Code.eventsList0x72c7fc
 gdjs.Level1Code.eventsList0x5b70b8 = function(runtimeScene) {
 
 {
@@ -80,7 +80,7 @@ gdjs.Level1Code.eventsList0x5b70b8 = function(runtimeScene) {
 {
 gdjs.Level1Code.GDDebugObjects1.createFrom(runtimeScene.getObjects("Debug"));
 {for(var i = 0, len = gdjs.Level1Code.GDDebugObjects1.length ;i < len;++i) {
-    gdjs.Level1Code.GDDebugObjects1[i].setString("Next rock in: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) - gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "spawnBarrel")));
+    gdjs.Level1Code.GDDebugObjects1[i].setString("Next barrel in: " + gdjs.evtTools.common.toString(gdjs.evtTools.common.getVariableNumber(runtimeScene.getVariables().getFromIndex(0)) - gdjs.evtTools.runtimeScene.getTimerElapsedTimeInSeconds(runtimeScene, "spawnBarrel")));
 }
 }}
 
@@ -149,7 +149,7 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level1Code.conditionTrue_1 = gdjs.Level1Code.condition1IsTrue_0;
-gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7516940);
+gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7516836);
 }
 }}
 if (gdjs.Level1Code.condition1IsTrue_0.val) {
@@ -270,7 +270,7 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.object.hitBoxesCollisionT
 }if ( gdjs.Level1Code.condition0IsTrue_0.val ) {
 {
 {gdjs.Level1Code.conditionTrue_1 = gdjs.Level1Code.condition1IsTrue_0;
-gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7521020);
+gdjs.Level1Code.conditionTrue_1.val = runtimeScene.getOnceTriggers().triggerOnce(7520916);
 }
 }}
 if (gdjs.Level1Code.condition1IsTrue_0.val) {
@@ -313,7 +313,7 @@ gdjs.Level1Code.condition0IsTrue_0.val = gdjs.evtTools.runtimeScene.timerElapsed
 }{gdjs.evtTools.runtimeScene.removeTimer(runtimeScene, "spawnBarrel");
 }
 { //Subevents
-gdjs.Level1Code.eventsList0x72c864(runtimeScene);} //End of subevents
+gdjs.Level1Code.eventsList0x72c7fc(runtimeScene);} //End of subevents
 }
 
 }
